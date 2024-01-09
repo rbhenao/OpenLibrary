@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.pagination li {
+  margin: 0 .2em;
+  display: inline-block;
+  border: 1px solid #aaa;
+}
+
+.pagination li a {
+  padding: .5em;
+  display: block;
+}
+
+.pagination li a:hover:not(.active) {
+  cursor: pointer;
+  background-color: lightcoral;
+}
+
+.pagination li a.active {
+  background-color: lightcoral;
+  border-color: lightcoral;
+}
+
+
